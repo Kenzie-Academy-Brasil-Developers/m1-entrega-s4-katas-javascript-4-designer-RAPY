@@ -1,1 +1,55 @@
-/* você pode estilizar se quiser !!! */
+body {
+    background-color: rgb(22, 22, 22);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.display-resultados {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid aquamarine;
+    width: 800px;
+    /*margin: 0 auto;*/
+}
+
+.display-resultados p {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.botoes-katas {
+    margin-top: 20px;
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.botoes-katas button {
+    margin: 10px 0;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(45, 141, 33);
+    color: white;
+    font-weight: 700;
+}
+
+.botoes-katas button:hover {
+    cursor: pointer;
+    background-color: rgb(108, 180, 98);
+    color: white;
+    font-weight: 700;
+}
+
+#secaoBonus {
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    width: 300px;
+    background-color: rgb(72, 72, 77);
+}
